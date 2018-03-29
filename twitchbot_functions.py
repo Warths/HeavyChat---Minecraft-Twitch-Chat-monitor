@@ -23,7 +23,7 @@ def tellraw(message, username=None, subscriber=None):
         tellrawstr = '['
         # Adding a mod button if get_display_mod_button return true
         if get_display_mod_button():
-            tellrawstr += '"",{"text":"✖","clickEvent":{"action":"run_command","value":"!heavychat /timeout %s"},' \
+            tellrawstr += '"",{"text":"✖","clickEvent":{"action":"run_command","value":"!heavychat timeout %s"},' \
                        '"hoverEvent":{"action":"show_text","value":"Expulser %s 600 secondes"}},' % (username, username)
         # Adding Subscriber string.
         if 'subscriber/0' in subscriber:
