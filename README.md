@@ -3,7 +3,6 @@
 ![illustration](https://github.com/Warths/HeavyChat---Minecraft-Twitch-Chat-monitor/raw/master/illustration.png)
 
 HeavyChat is a python script that processes Twitch Message and Minecraft Message.
-You can : 
 
 ## Features
 
