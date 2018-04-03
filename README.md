@@ -23,7 +23,7 @@ This script is made possible with TwitchObserver:
 https://github.com/joshuaskelly/twitch-observer
 #### Installation 
 
-    $ pip install twitchobserver
+    $ pip install -r requirements.txt
 
 ## Commands
 ### Minecraft Commands :
